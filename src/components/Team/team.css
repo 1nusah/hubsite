@@ -1,0 +1,35 @@
+#colored-para p {
+	color: #3498db;
+}
+
+/* #image-outerContainer {
+	flex-direction: row;
+	display: flex;
+	text-align: center;
+} */
+
+#image-style {
+	border-radius: 50%;
+	text-align: center;
+}
+/* #image-innerContainer {
+	padding-left: auto;
+	padding-right: auto;
+} */
+#image-innerContainer {
+	align-items: center;
+	text-align: center;
+}
+#image-innerContainer p {
+	color: #3498db;
+	text-align: center;
+}
+#image-innerContainer h3 {
+	text-align: center;
+}
+@media only screen and (max-width: 600px) {
+	#image-innerContainer {
+		padding-left: auto;
+		padding-right: auto;
+	}
+}

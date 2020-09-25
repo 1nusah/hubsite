@@ -1,0 +1,32 @@
+#employOuterContainer {
+	background-color: '#fff';
+}
+#grid-style {
+	background-color: #00042a;
+}
+#incubation-style {
+	background-color: #00042a;
+}
+@media only screen and (max-width: 600px) {
+	#employOuterContainer {
+		/* background-color: #fff; */
+		width: 100%;
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+	#image-style {
+		width: 100%;
+	}
+	#incubation-style h1 {
+		line-height: 1.2em;
+		text-transform: capitalize;
+		font-size: 1.7em;
+	}
+	#incubation-style h3 {
+		font-size: 1.25em;
+	}
+
+	#grid-style {
+		padding-bottom: 15%;
+	}
+}

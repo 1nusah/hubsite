@@ -1,0 +1,10 @@
+#mainStyle {
+	padding-top: 5%;
+}
+
+@media only screen and (max-width: 600px) {
+	#mainStyle {
+		padding-right: 0;
+		padding-left: 0;
+	}
+}

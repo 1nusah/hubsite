@@ -1,0 +1,58 @@
+#about-component-styles {
+	padding: 5%;
+	background-color: whitesmoke;
+	color: #333;
+}
+#second-row-why h1 {
+	font-size: 2.23em;
+	line-height: 1.2em;
+	text-align: center;
+	color: #333;
+	font-weight: bolder;
+}
+#second-row-why p {
+	margin-bottom: 20px;
+}
+#approach-style {
+	text-align: center;
+	padding-right: 15%;
+	padding-left: 15%;
+	background-color: #00042a;
+	color: #fff;
+	padding-bottom: 5%;
+}
+#approach-style-text {
+	text-align: left;
+
+	/* line-height: 1.2em; */
+	font-weight: lighter;
+}
+#approach-header {
+	font-size: 2.24em;
+	line-height: 1.2;
+	font-weight: bolder;
+}
+#approach-border {
+	border-top: 7px solid #ffc266;
+	border-bottom: 7px solid #ffc266;
+	padding: 10%;
+}
+@media only screen and (max-width: 600px) {
+	#about-component-styles {
+		padding-top: 10%;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	#second-row-why h1 {
+		text-align: center;
+	}
+	#second-row-why p {
+		text-align: center;
+	}
+	#approach-style-text {
+		text-align: center;
+	}
+	#approach-style {
+		text-align: left;
+	}
+}

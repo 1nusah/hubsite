@@ -1,0 +1,32 @@
+#list-headers {
+	border-bottom: '5px solid #ffc266';
+	text-align: left;
+}
+#footer-container-style p {
+	cursor: pointer;
+}
+#footer-container-style p :hover {
+	color: #fff;
+}
+a,
+a:visited,
+a:hover,
+a:active {
+	color: inherit;
+}
+@media only screen and (max-width: 600px) {
+	#footer-container-style {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	#footer-item-style {
+		border-bottom: '5px solid #aaa';
+		text-align: center;
+	}
+	#list-headers {
+		text-align: center;
+	}
+	#footer-container-style p {
+		text-align: center;
+	}
+}

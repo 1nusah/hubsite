@@ -1,0 +1,15 @@
+#employText h4 {
+	font-size: 1.7em;
+	line-height: 1.2em;
+
+	color: #6c63ff;
+	border-bottom: '5px solid #ffc266';
+}
+@media only screen and (max-width: 600px) {
+	#employText {
+		text-align: center;
+	}
+	#employText h4 {
+		border-bottom: '5px solid #ffc266';
+	}
+}

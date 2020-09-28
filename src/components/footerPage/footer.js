@@ -1,6 +1,12 @@
 import React from 'react';
 import Grid from '@material-ui/core/Grid';
-
+import LanguageIcon from '@material-ui/icons/Language';
+import MailOutlineIcon from '@material-ui/icons/MailOutline';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import TwitterIcon from '@material-ui/icons/Twitter';
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import susPic from '../../images/sdg.png';
 import './footer.css';
 const Footer = () => {
 	return (
@@ -118,22 +124,42 @@ const Footer = () => {
 						>
 							Office
 						</h5>
+
 						<div style={{ textAlign: 'center' }}>
-							<p style={{ lineHeight: '1.2em', textAlign: 'left' }}>
-								<a href="/internship/#corporate">Contact</a>
-							</p>
-							<p style={{ lineHeight: '1.2em', textAlign: 'left' }}>
-								<a href="/internshi/#university">FAQ</a>
-							</p>
-							<p style={{ lineHeight: '1.2em', textAlign: 'left' }}>
-								<a href="/internship/#student">Privacy Policy</a>
-							</p>
-							<p style={{ lineHeight: '1.2em', textAlign: 'left' }}>
-								<a href="/how-to-partner">How to Partner</a>
-							</p>
-							<p style={{ lineHeight: '1.2em', textAlign: 'left' }}>
-								<a href="internabroad.php">Intern Abroad</a>
-							</p>
+							<div>
+								<LanguageIcon style={{ color: '#fff', textAlign: 'center' }} />
+								<p>B378/14, New Abossey Okai St.</p>
+							</div>
+							<div>
+								<MailOutlineIcon style={{ color: '#fff' }} />
+								<p style={{ lineHeight: '1.2em', textAlign: 'center' }}>
+									<a href="mailto:info@africaskillshub.org">
+										info@africaskillshub.org
+									</a>
+								</p>
+							</div>
+							<div>
+								<a href="https://www.facebook.com/AfricaSkillsHub/">
+									<FacebookIcon style={{ color: '#fff', paddingRight: 10 }} />
+								</a>
+								<a href="https://twitter.com/africaskillshub">
+									<TwitterIcon style={{ color: '#fff', paddingRight: 10 }} />
+								</a>
+								<a href="https://www.linkedin.com/company/africaskillshub/">
+									<LinkedInIcon style={{ color: '#fff', paddingRight: 10 }} />
+								</a>
+								<a href="https://www.instagram.com/africaskillshub/">
+									<InstagramIcon style={{ color: '#fff', paddingRight: 10 }} />
+								</a>
+							</div>
+							<div style={{ paddingTop: '3%' }}>
+								<img
+									src={susPic}
+									alt="sustainable goals logo"
+									width="100px"
+									height="auto"
+								/>
+							</div>
 						</div>
 					</div>
 				</Grid>

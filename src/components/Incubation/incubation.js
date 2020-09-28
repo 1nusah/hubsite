@@ -28,7 +28,7 @@ const Incubation = () => {
 				<ScrollAnimation
 					animateIn="bounceInRight"
 					animateOut="bounceOutLeft"
-					animateOnce={false}
+					animateOnce={true}
 					delay={500}
 				>
 					<img
@@ -52,7 +52,7 @@ const Incubation = () => {
 				<ScrollAnimation
 					animateIn="bounceInLeft"
 					animateOut="bounceOutRight"
-					animateOnce={false}
+					animateOnce={true}
 					delay={500}
 				>
 					<h1>Business Incubation</h1>

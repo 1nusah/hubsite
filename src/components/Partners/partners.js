@@ -12,6 +12,7 @@ import Part10 from '../../images/patners/Pyxera Global.png';
 import Part11 from '../../images/patners/sdfff.jpg';
 import Part12 from '../../images/patners/YEA.png';
 import Grid from '@material-ui/core/Grid';
+import './partners.css';
 const Partners = () => {
 	return (
 		<Grid container style={{ paddingBottom: 20 }}>
@@ -26,7 +27,7 @@ const Partners = () => {
 				<h1>Meet Our Clients and Partners</h1>
 			</Grid>
 			<Grid container style={{ textAlign: 'center' }}>
-				<Grid item xs={12} sm={4} md={3} lg={3}>
+				<Grid className="partnerContainer" item xs={12} sm={4} md={3} lg={3}>
 					<img
 						width="200px"
 						alt="partners"
@@ -34,7 +35,7 @@ const Partners = () => {
 						src={Part1}
 					/>
 				</Grid>
-				<Grid item xs={12} sm={4} md={3} lg={3}>
+				<Grid className="partnerContainer" item xs={12} sm={4} md={3} lg={3}>
 					<img
 						width="200px"
 						alt="partners"
@@ -43,7 +44,7 @@ const Partners = () => {
 					/>
 				</Grid>
 
-				<Grid item xs={12} sm={4} md={3} lg={3}>
+				<Grid className="partnerContainer" item xs={12} sm={4} md={3} lg={3}>
 					<img
 						width="200px"
 						alt="partners"
@@ -52,7 +53,7 @@ const Partners = () => {
 					/>
 				</Grid>
 
-				<Grid item xs={12} sm={4} md={3} lg={3}>
+				<Grid className="partnerContainer" item xs={12} sm={4} md={3} lg={3}>
 					<img
 						width="200px"
 						alt="partners"
@@ -61,7 +62,7 @@ const Partners = () => {
 					/>
 				</Grid>
 
-				<Grid item xs={12} sm={4} md={3} lg={3}>
+				<Grid className="partnerContainer" item xs={12} sm={4} md={3} lg={3}>
 					<img
 						width="200px"
 						alt="partners"
@@ -70,7 +71,7 @@ const Partners = () => {
 					/>
 				</Grid>
 
-				<Grid item xs={12} sm={4} md={3} lg={3}>
+				<Grid className="partnerContainer" item xs={12} sm={4} md={3} lg={3}>
 					<img
 						width="200px"
 						alt="partners"
@@ -79,7 +80,7 @@ const Partners = () => {
 					/>
 				</Grid>
 
-				<Grid item xs={12} sm={4} md={3} lg={3}>
+				<Grid className="partnerContainer" item xs={12} sm={4} md={3} lg={3}>
 					<img
 						width="200px"
 						alt="partners"
@@ -88,7 +89,7 @@ const Partners = () => {
 					/>
 				</Grid>
 
-				<Grid item xs={12} sm={4} md={3} lg={3}>
+				<Grid className="partnerContainer" item xs={12} sm={4} md={3} lg={3}>
 					<img
 						width="200px"
 						alt="partners"
@@ -97,7 +98,7 @@ const Partners = () => {
 					/>
 				</Grid>
 
-				<Grid item xs={12} sm={4} md={3} lg={3}>
+				<Grid className="partnerContainer" item xs={12} sm={4} md={3} lg={3}>
 					<img
 						width="200px"
 						alt="partners"
@@ -106,7 +107,7 @@ const Partners = () => {
 					/>
 				</Grid>
 
-				<Grid item xs={12} sm={4} md={3} lg={3}>
+				<Grid className="partnerContainer" item xs={12} sm={4} md={3} lg={3}>
 					<img
 						width="200px"
 						alt="partners"
@@ -115,7 +116,7 @@ const Partners = () => {
 					/>
 				</Grid>
 
-				<Grid item xs={12} sm={4} md={3} lg={3}>
+				<Grid className="partnerContainer" item xs={12} sm={4} md={3} lg={3}>
 					<img
 						width="200px"
 						alt="partners"
@@ -124,7 +125,7 @@ const Partners = () => {
 					/>
 				</Grid>
 
-				<Grid item xs={12} sm={4} md={3} lg={3}>
+				<Grid className="partnerContainer" item xs={12} sm={4} md={3} lg={3}>
 					<img
 						width="200px"
 						alt="partners"

@@ -22,7 +22,7 @@ const Programs = () => {
 				<ScrollAnimation
 					animateIn="fadeInLeft"
 					animateOut="fadeOutRight"
-					animateOnce={false}
+					animateOnce={true}
 					delay={500}
 				>
 					<div
@@ -58,7 +58,7 @@ const Programs = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<div>
@@ -83,7 +83,7 @@ const Programs = () => {
 							<ScrollAnimation
 								animateIn="fadeInLeft"
 								animateOut="fadeOutRight"
-								animateOnce={false}
+								animateOnce={true}
 								delay={500}
 							>
 								<h4 style={{ borderBottom: '5px solid #ffc266' }}>
@@ -120,7 +120,7 @@ const Programs = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<div data-aos="fade-left">
@@ -134,7 +134,7 @@ const Programs = () => {
 						<ScrollAnimation
 							animateIn="fadeInLeft"
 							animateOut="fadeOutRight"
-							animateOnce={false}
+							animateOnce={true}
 							delay={500}
 						>
 							<div id="employText">
@@ -176,7 +176,7 @@ const Programs = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<div>
@@ -189,7 +189,7 @@ const Programs = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<a name="apprenticeship-services">

@@ -7,7 +7,6 @@ import anaPic from '../../images/team/anatu.jpg';
 import NatPic from '../../images/team/nat.jpeg';
 import BlessPic from '../../images/team/bless.jpg';
 import gloriaPic from '../../images/team/gloria.jpeg';
-
 import ntosoPic from '../../images/team/ntoso.jpeg';
 import perfectPic from '../../images/team/perfect.jpeg';
 import isaacPic from '../../images/team/isaac.jpg';
@@ -33,10 +32,9 @@ const Team = () => {
 					</h1>
 				</div>
 			</Grid>
-
 			<Grid container>
 				<Grid item xs={12} sm={6} md={3} lg={3} style={{ textAlign: 'center' }}>
-					<div id="image-innerContainer">
+					<div className="image-innerContainer">
 						<img
 							src={DanPic}
 							width="240px"
@@ -50,7 +48,7 @@ const Team = () => {
 					</div>
 				</Grid>
 				<Grid item xs={12} sm={6} md={3} lg={3}>
-					<div id="image-innerContainer">
+					<div className="image-innerContainer">
 						<img
 							src={lesPic}
 							width="240px"
@@ -63,7 +61,7 @@ const Team = () => {
 					</div>
 				</Grid>
 				<Grid item xs={12} sm={6} md={3} lg={3}>
-					<div id="image-innerContainer">
+					<div className="image-innerContainer">
 						<img
 							src={anaPic}
 							width="240px"
@@ -78,7 +76,7 @@ const Team = () => {
 					</div>
 				</Grid>
 				<Grid item xs={12} sm={6} md={3} lg={3}>
-					<div id="image-innerContainer">
+					<div className="image-innerContainer">
 						<img
 							src={NatPic}
 							height="240px"
@@ -91,14 +89,14 @@ const Team = () => {
 					</div>
 				</Grid>
 				<Grid item xs={12} sm={6} md={3} lg={3}>
-					<div id="image-innerContainer">
+					<div className="image-innerContainer">
 						<img src={BlessPic} alt="" width="240px" height="240px" />
 						<h3>BLESS KWASI AMENYO</h3>
 						<p>Hub Manager</p>
 					</div>
 				</Grid>
 				<Grid item xs={12} sm={6} md={3} lg={3}>
-					<div id="image-innerContainer">
+					<div className="image-innerContainer">
 						<img
 							src={perfectPic}
 							alt=""
@@ -111,7 +109,7 @@ const Team = () => {
 					</div>
 				</Grid>
 				<Grid item xs={12} sm={6} md={3} lg={3}>
-					<div id="image-innerContainer">
+					<div className="image-innerContainer">
 						<img
 							src={ntosoPic}
 							alt=""
@@ -124,7 +122,7 @@ const Team = () => {
 					</div>
 				</Grid>
 				<Grid item xs={12} sm={6} md={3} lg={3}>
-					<div id="image-innerContainer">
+					<div className="image-innerContainer">
 						<img
 							src={gloriaPic}
 							alt=""
@@ -137,7 +135,7 @@ const Team = () => {
 					</div>
 				</Grid>
 				<Grid item xs={12} sm={6} md={3} lg={3}>
-					<div id="image-innerContainer">
+					<div className="image-innerContainer">
 						<img
 							src={Zoo}
 							alt="zoo"
@@ -150,14 +148,14 @@ const Team = () => {
 					</div>
 				</Grid>
 				<Grid item xs={12} sm={6} md={3} lg={3}>
-					<div id="image-innerContainer">
+					<div className="image-innerContainer">
 						<img src={Okpo} alt="okpo" height="240px" width="240px" />
 						<h3>PHILIP MENSAH OKPOTI</h3>
 						<p>Programs Officer</p>
 					</div>
 				</Grid>
 				<Grid item xs={12} sm={6} md={3} lg={3}>
-					<div id="image-innerContainer">
+					<div className="image-innerContainer">
 						<img
 							src={isaacPic}
 							height="240px"
@@ -170,7 +168,7 @@ const Team = () => {
 					</div>
 				</Grid>
 				<Grid item xs={12} sm={6} md={3} lg={3}>
-					<div id="image-innerContainer">
+					<div className="image-innerContainer">
 						<img
 							src={RamPic}
 							height="240px"

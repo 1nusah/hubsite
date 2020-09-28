@@ -1,0 +1,6 @@
+.partnerContainer > *:hover {
+	transform: scale(1.5);
+}
+.partnerContainer > *:not(:hover) {
+	transform: scale(0.9);
+}

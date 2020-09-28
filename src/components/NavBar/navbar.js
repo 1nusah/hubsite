@@ -46,9 +46,11 @@ export default function ButtonAppBar() {
 					<Link to="/about">
 						<Button color="#000">About US</Button>
 					</Link>
-					<Link to="/courses">
-						<Button color="#000">Courses</Button>
-					</Link>
+
+					<Button color="#000">
+						<a href="https://app.africaskillshub.org/">Courses</a>
+					</Button>
+
 					<Link to="/programs">
 						<Button color="#000">Program</Button>
 					</Link>
@@ -60,12 +62,10 @@ export default function ButtonAppBar() {
 						<Button color="#000">SME Fund</Button>
 					</Link>
 
-					<Link to="/login">
-						<Button color="#000">
-							<AccountCircleRoundedIcon />
-							Login
-						</Button>
-					</Link>
+					<Button color="#000">
+						<AccountCircleRoundedIcon />
+						<a href="https://app.africaskillshub.org/login">Login</a>
+					</Button>
 				</Toolbar>
 			</AppBar>
 		</div>

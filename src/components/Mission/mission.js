@@ -20,7 +20,7 @@ const Mission = () => {
 				<ScrollAnimation
 					animateIn="fadeInLeft"
 					animateOut="fadeOutRight"
-					animateOnce={false}
+					animateOnce={true}
 					delay={500}
 				>
 					<h1 style={{ fontSize: '1.7em', lineHeight: '1.2em', opacity: 0.4 }}>
@@ -45,7 +45,7 @@ const Mission = () => {
 				<ScrollAnimation
 					animateIn="fadeInRight"
 					animateOut="fadeOutLeft"
-					animateOnce={false}
+					animateOnce={true}
 					delay={500}
 				>
 					<img

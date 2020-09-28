@@ -22,7 +22,7 @@ const AboutComponent = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<div
@@ -83,7 +83,7 @@ const AboutComponent = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<h1 style={{ textAlign: 'center' }}> Why Africa Skills Hub</h1>
@@ -111,7 +111,7 @@ const AboutComponent = () => {
 						<ScrollAnimation
 							animateIn="fadeInLeft"
 							animateOut="fadeOutRight"
-							animateOnce={false}
+							animateOnce={true}
 							delay={500}
 						>
 							<a name="approach">

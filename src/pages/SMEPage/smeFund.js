@@ -37,7 +37,7 @@ const FundPage = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<img
@@ -54,7 +54,7 @@ const FundPage = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<h1 style={{ fontWeight: 'bolder' }}>
@@ -80,7 +80,7 @@ const FundPage = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<div style={{ textAlign: 'center' }}>
@@ -125,7 +125,7 @@ const FundPage = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<SimpleTable />
@@ -146,7 +146,7 @@ const FundPage = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<img
@@ -170,7 +170,7 @@ const FundPage = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<div
@@ -207,7 +207,7 @@ const FundPage = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<img
@@ -229,7 +229,7 @@ const FundPage = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<div

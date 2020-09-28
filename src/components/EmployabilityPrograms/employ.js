@@ -21,7 +21,7 @@ const Employ = () => {
 					animateIn="fadeInRight"
 					animateOut="fadeOutLeft"
 					delay={500}
-					animateOnce={false}
+					animateOnce={true}
 				>
 					<img src={EmployPic} width="100%" height="auto" alt="trainee " />
 				</ScrollAnimation>
@@ -31,36 +31,38 @@ const Employ = () => {
 					animateIn="fadeInLeft"
 					animateOut="fadeOutRight"
 					delay={500}
-					animateOnce={false}
+					animateOnce={true}
 				>
-					<h3
-						style={{
-							fontSize: '1.7em',
-							color: '#6C63FF',
-							borderBottom: '5px solid  #ffc266',
-							maxWidth: '100%',
-						}}
-					>
-						Employabillity Programs
-					</h3>
-					<h3
-						style={{
-							color: '#6C63FF',
-							fontSize: '1.5rem',
-							lineHeight: '1.2em',
-						}}
-						id="align-text-center"
-					>
-						Youth Employment Accelerator
-					</h3>
-					<h3
-						style={{ opacity: 0.4, fontSize: '1.3em' }}
-						id="align-text-center"
-					>
-						A structured career Bootcamp to equip entry-level graduates and
-						potential jobseekers with the skills and confidence that employers
-						are looking for.
-					</h3>
+					<div>
+						<h3
+							style={{
+								fontSize: '1.7em',
+								color: '#6C63FF',
+								borderBottom: '5px solid  #ffc266',
+								maxWidth: '100%',
+							}}
+						>
+							Employabillity Programs
+						</h3>
+						<h3
+							style={{
+								color: '#6C63FF',
+								fontSize: '1.5rem',
+								lineHeight: '1.2em',
+							}}
+							id="align-text-center"
+						>
+							Youth Employment Accelerator
+						</h3>
+						<h3
+							style={{ opacity: 0.4, fontSize: '1.3em' }}
+							id="align-text-center"
+						>
+							A structured career Bootcamp to equip entry-level graduates and
+							potential jobseekers with the skills and confidence that employers
+							are looking for.
+						</h3>
+					</div>
 					<Grid item>
 						<Button
 							variant="contained"

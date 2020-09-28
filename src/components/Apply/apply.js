@@ -32,7 +32,7 @@ const Apply = () => {
 				<ScrollAnimation
 					animateIn="fadeInLeft"
 					animateOut="fadeOutRight"
-					animateOnce={false}
+					animateOnce={true}
 					delay={500}
 				>
 					<h1
@@ -57,7 +57,7 @@ const Apply = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<img
@@ -84,7 +84,7 @@ const Apply = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<div style={{ borderBottom: '5px solid #ffc266' }}>
@@ -141,7 +141,7 @@ const Apply = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<div style={{ borderBottom: '5px solid #ffc266' }}>
@@ -177,7 +177,7 @@ const Apply = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<img
@@ -205,7 +205,7 @@ const Apply = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<div style={{ borderBottom: '5px solid #ffc266' }}>
@@ -239,7 +239,7 @@ const Apply = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<img
@@ -266,7 +266,7 @@ const Apply = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<div style={{ borderBottom: '5px solid #ffc266' }}>
@@ -300,7 +300,7 @@ const Apply = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<img src={trainingPic} alt="training " width="100%" height="auto" />
@@ -321,7 +321,7 @@ const Apply = () => {
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
-						animateOnce={false}
+						animateOnce={true}
 						delay={500}
 					>
 						<div style={{ borderBottom: '5px solid #ffc266' }}>

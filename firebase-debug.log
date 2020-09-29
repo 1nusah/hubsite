@@ -1,0 +1,58 @@
+[debug] [2020-09-29T21:48:09.493Z] ----------------------------------------------------------------------
+[debug] [2020-09-29T21:48:09.497Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\saidi\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2020-09-29T21:48:09.497Z] CLI Version:   8.11.2
+[debug] [2020-09-29T21:48:09.498Z] Platform:      win32
+[debug] [2020-09-29T21:48:09.498Z] Node Version:  v14.5.0
+[debug] [2020-09-29T21:48:09.500Z] Time:          Tue Sep 29 2020 21:48:09 GMT+0000 (Greenwich Mean Time)
+[debug] [2020-09-29T21:48:09.500Z] ----------------------------------------------------------------------
+[debug] [2020-09-29T21:48:09.500Z] 
+[debug] [2020-09-29T21:48:09.516Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-09-29T21:48:09.517Z] > authorizing via signed-in user
+[debug] [2020-09-29T21:48:09.518Z] [iam] checking project africa-skills-hub for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2020-09-29T21:48:09.524Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/africa-skills-hub:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2020-09-29T21:48:10.773Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 29 Sep 2020 21:47:45 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=682","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-09-29T21:48:10.776Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/africa-skills-hub  
+ 
+[debug] [2020-09-29T21:48:11.535Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 29 Sep 2020 21:47:46 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] 
+[info] === Deploying to 'africa-skills-hub'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2020-09-29T21:48:11.755Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/africa-skills-hub/versions  
+ {"config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2020-09-29T21:48:13.376Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 29 Sep 2020 21:47:48 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[africa-skills-hub]: beginning deploy... 
+[info] i  hosting[africa-skills-hub]: found 7 files in public 
+[debug] [2020-09-29T21:48:13.448Z] [hosting] hash cache [cHVibGlj] stored for 7 files
+[debug] [2020-09-29T21:48:13.449Z] [hosting][hash queue][FINAL] {"max":4,"min":1,"avg":1,"active":0,"complete":7,"success":7,"errored":0,"retried":0,"total":7,"elapsed":9}
+[debug] [2020-09-29T21:48:13.449Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/africa-skills-hub/versions/05ba27d4f278ac5c:populateFiles  
+ <request body omitted>
+[debug] [2020-09-29T21:48:15.009Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Tue, 29 Sep 2020 21:47:49 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-Q050=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-09-29T21:48:15.010Z] [hosting][populate queue][FINAL] {"max":1566,"min":1566,"avg":1566,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":1566}
+[debug] [2020-09-29T21:48:15.011Z] [hosting] uploads queued: 0
+[debug] [2020-09-29T21:48:15.011Z] [hosting][upload queue][FINAL] {"max":0,"min":9999999999,"avg":0,"active":0,"complete":0,"success":0,"errored":0,"retried":0,"total":0,"elapsed":1601416095011}
+[info] +  hosting[africa-skills-hub]: file upload complete 
+[debug] [2020-09-29T21:48:15.013Z] [hosting] deploy completed after 1635ms
+[debug] [2020-09-29T21:48:15.557Z] [
+  {
+    "config": {
+      "public": "public",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "site": "africa-skills-hub"
+    },
+    "site": "africa-skills-hub",
+    "version": "sites/africa-skills-hub/versions/05ba27d4f278ac5c"
+  }
+]
+[info] i  hosting[africa-skills-hub]: finalizing version... 
+[debug] [2020-09-29T21:48:15.559Z] >>> HTTP REQUEST PATCH https://firebasehosting.googleapis.com/v1beta1/sites/africa-skills-hub/versions/05ba27d4f278ac5c?updateMask=status  
+ {"status":"FINALIZED"}
+[debug] [2020-09-29T21:48:37.195Z] Error: connect ETIMEDOUT 216.58.212.106:443
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16)
+[error] 
+[error] Error: Server Error. connect ETIMEDOUT 216.58.212.106:443

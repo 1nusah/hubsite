@@ -1,3 +1,14 @@
 * {
 	text-decoration: none;
 }
+#hamburger-icon {
+	display: none;
+}
+@media only screen and (max-width: 900px) {
+	#hamburger-icon {
+		display: flex;
+	}
+	#appbar-items {
+		display: none;
+	}
+}

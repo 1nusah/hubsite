@@ -7,6 +7,7 @@ import Typography from '@material-ui/core/Typography';
 import Button from '@material-ui/core/Button';
 import Logo from '../../images/logo2.jpeg';
 import AccountCircleRoundedIcon from '@material-ui/icons/AccountCircleRounded';
+import MenuIcon from '@material-ui/icons/Menu';
 import './NavBar.css';
 const useStyles = makeStyles((theme) => ({
 	root: {
@@ -43,29 +44,36 @@ export default function ButtonAppBar() {
 							</Button>
 						</Link>
 					</Typography>
-					<Link to="/about">
-						<Button color="#000">About US</Button>
-					</Link>
+					<div id="hamburger-icon">
+						<Button>
+							<MenuIcon style={{ fontSize: 40, color: '#3f51b5' }} />
+						</Button>
+					</div>
+					<div id="appbar-items">
+						<Link to="/about">
+							<Button color="#000">About Us</Button>
+						</Link>
 
-					<Button color="#000">
-						<a href="https://app.africaskillshub.org/">Courses</a>
-					</Button>
+						<Button color="#000">
+							<a href="https://app.africaskillshub.org/">Courses</a>
+						</Button>
 
-					<Link to="/programs">
-						<Button color="#000">Program</Button>
-					</Link>
-					<Link to="/apply">
-						<Button color="#000">Apply</Button>
-					</Link>
+						<Link to="/programs">
+							<Button color="#000">Program</Button>
+						</Link>
+						<Link to="/apply">
+							<Button color="#000">Apply</Button>
+						</Link>
 
-					<Link to="/fund">
-						<Button color="#000">SME Fund</Button>
-					</Link>
+						<Link to="/fund">
+							<Button color="#000">SME Fund</Button>
+						</Link>
 
-					<Button color="#000">
-						<AccountCircleRoundedIcon />
-						<a href="https://app.africaskillshub.org/login">Login</a>
-					</Button>
+						<Button color="#000">
+							<AccountCircleRoundedIcon />
+							<a href="https://app.africaskillshub.org/login">Login</a>
+						</Button>
+					</div>
 				</Toolbar>
 			</AppBar>
 		</div>

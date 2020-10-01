@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Typography from '@material-ui/core/Typography';
-import Button from '@material-ui/core/Button';
+import {
+	AppBar,
+	Button,
+	Toolbar,
+	Typography,
+	Card,
+	CardContent,
+} from '@material-ui/core';
+
 import Logo from '../../images/logo2.jpeg';
 import AccountCircleRoundedIcon from '@material-ui/icons/AccountCircleRounded';
 import MenuIcon from '@material-ui/icons/Menu';
@@ -23,7 +28,11 @@ const useStyles = makeStyles((theme) => ({
 
 export default function ButtonAppBar() {
 	const classes = useStyles();
-
+	const [showMenuBool, setshowMenuBool] = useState(false);
+	const showMenu = () => {
+		setshowMenuBool(!showMenuBool);
+		console.log(showMenuBool);
+	};
 	return (
 		<div className={classes.root}>
 			<AppBar position="fixed" style={{ backgroundColor: '#fff' }}>
@@ -44,9 +53,20 @@ export default function ButtonAppBar() {
 							</Button>
 						</Link>
 					</Typography>
+					{showMenuBool && (
+						<Card>
+							<CardContent>
+								<h1>hi there fuckers</h1>
+							</CardContent>
+						</Card>
+					)}
+
 					<div id="hamburger-icon">
 						<Button>
-							<MenuIcon style={{ fontSize: 40, color: '#3f51b5' }} />
+							<MenuIcon
+								style={{ fontSize: 40, color: '#3f51b5' }}
+								onClick={() => showMenu()}
+							/>
 						</Button>
 					</div>
 					<div id="appbar-items">

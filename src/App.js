@@ -9,12 +9,13 @@ import FundPage from './pages/SMEPage/smeFund';
 import NavBar from './components/NavBar/navbar';
 import Programs from './pages/Programs/programs';
 import Interns from './pages/InternshipPage/interns';
+import Header from './components/NavBar/navBar1';
 function App() {
 	return (
 		<div style={{ fontFamily: 'Poppins' }}>
 			<Router>
 				<nav>
-					<NavBar />
+					<Header />
 				</nav>
 				<Route path="/" component={LandingPage} exact />
 				<Route path="/about" component={About} exact />
@@ -29,7 +30,3 @@ function App() {
 }
 
 export default App;
-
-
-
-

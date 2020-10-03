@@ -5,6 +5,7 @@ import 'animate.css/animate.min.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import EmployPic from '../../images/9.jpg';
+import { Link } from 'react-router-dom';
 import './employ.css';
 const Employ = () => {
 	return (
@@ -69,7 +70,7 @@ const Employ = () => {
 							color="secondary"
 							style={{ borderRadius: 30 }}
 						>
-							Apply
+							<Link to="/about">Apply</Link>
 							<ArrowForwardIcon color="#fff" />
 						</Button>
 					</Grid>

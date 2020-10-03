@@ -14,18 +14,12 @@
 	margin-bottom: 20px;
 }
 #approach-style {
-	text-align: center;
-	padding-right: 15%;
-	padding-left: 15%;
 	background-color: #00042a;
 	color: #fff;
 	padding-bottom: 5%;
 }
 #approach-style-text {
-	text-align: left;
-
-	/* line-height: 1.2em; */
-	font-weight: lighter;
+	/* font-weight: lighter; */
 }
 #approach-header {
 	font-size: 2.24em;
@@ -47,11 +41,11 @@
 		text-align: center;
 	}
 	#second-row-why p {
-		text-align: center;
+		/* text-align: center; */
 	}
-	#approach-style-text {
+	/* #approach-style-text {
 		text-align: center;
-	}
+	} */
 	#approach-style {
 		text-align: left;
 	}

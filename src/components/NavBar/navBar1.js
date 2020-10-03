@@ -47,7 +47,7 @@ const Header = (props) => {
 		<AppBar position="static" style={{ backgroundColor: '#fff' }}>
 			<Toolbar>
 				<Typography variant="h6" className={classes.title}>
-					<Button>
+					<Button onClick={() => handleMenuClick('/')}>
 						<img
 							src={Logo}
 							width={150}
@@ -56,9 +56,7 @@ const Header = (props) => {
 						/>
 					</Button>
 				</Typography>
-				<div
-				// id="hamburger-icon"
-				>
+				<div>
 					{isMobile ? (
 						<IconButton>
 							<IconButton

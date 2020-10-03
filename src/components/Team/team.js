@@ -36,11 +36,11 @@ const Team = () => {
 				<Grid item xs={12} sm={6} md={3} lg={3} style={{ textAlign: 'center' }}>
 					<div className="image-innerContainer">
 						<img
+							style={{ borderRadius: '50%' }}
 							src={DanPic}
 							width="240px"
 							height="240px"
 							alt="daniel"
-							id="image-style"
 							text-align="center"
 						/>
 						<h3>DANIEL AMOAKO ANTWI</h3>
@@ -50,11 +50,11 @@ const Team = () => {
 				<Grid item xs={12} sm={6} md={3} lg={3}>
 					<div className="image-innerContainer">
 						<img
+							style={{ borderRadius: '50%' }}
 							src={lesPic}
 							width="240px"
 							height="240px"
 							alt="leslie"
-							id="image-style"
 						/>
 						<h3>EMMANUEL LESLIE ADDAE</h3>
 						<p>Co-Founder, Head of Programs & Strategy</p>
@@ -63,11 +63,11 @@ const Team = () => {
 				<Grid item xs={12} sm={6} md={3} lg={3}>
 					<div className="image-innerContainer">
 						<img
+							style={{ borderRadius: '50%' }}
 							src={anaPic}
 							width="240px"
 							height="240px"
 							alt="anatu"
-							id="image-style"
 						/>
 						<h3>ANATU BEN-LAWAL</h3>
 						<p>
@@ -78,11 +78,11 @@ const Team = () => {
 				<Grid item xs={12} sm={6} md={3} lg={3}>
 					<div className="image-innerContainer">
 						<img
+							style={{ borderRadius: '50%' }}
 							src={NatPic}
 							height="240px"
 							width="240px"
 							alt="nat"
-							id="image-style"
 						/>
 						<h3>NATHANIEL ASARE</h3>
 						<p>Head of Faculty & Fund Manager</p>
@@ -90,7 +90,13 @@ const Team = () => {
 				</Grid>
 				<Grid item xs={12} sm={6} md={3} lg={3}>
 					<div className="image-innerContainer">
-						<img src={BlessPic} alt="" width="240px" height="240px" />
+						<img
+							style={{ borderRadius: '50%' }}
+							src={BlessPic}
+							alt=""
+							width="240px"
+							height="240px"
+						/>
 						<h3>BLESS KWASI AMENYO</h3>
 						<p>Hub Manager</p>
 					</div>
@@ -98,11 +104,11 @@ const Team = () => {
 				<Grid item xs={12} sm={6} md={3} lg={3}>
 					<div className="image-innerContainer">
 						<img
+							style={{ borderRadius: '50%' }}
 							src={perfectPic}
 							alt=""
 							width="240px"
 							height="240px"
-							id="image-style"
 						/>
 						<h3>PERFECT DADUGBLOR</h3>
 						<p>Digital Media Specialist</p>
@@ -111,11 +117,11 @@ const Team = () => {
 				<Grid item xs={12} sm={6} md={3} lg={3}>
 					<div className="image-innerContainer">
 						<img
+							style={{ borderRadius: '50%' }}
 							src={ntosoPic}
 							alt=""
 							width="240px"
 							height="240px"
-							id="image-style"
 						/>
 						<h3>DANIEL KWAKU NTOSO</h3>
 						<p>Creative Associate</p>
@@ -124,11 +130,11 @@ const Team = () => {
 				<Grid item xs={12} sm={6} md={3} lg={3}>
 					<div className="image-innerContainer">
 						<img
+							style={{ borderRadius: '50%' }}
 							src={gloriaPic}
 							alt=""
 							width="240px"
 							height="240px"
-							id="image-style"
 						/>
 						<h3>NORA GLORIA BAMFOWAA</h3>
 						<p>Programs Officer (M & E)</p>
@@ -137,11 +143,11 @@ const Team = () => {
 				<Grid item xs={12} sm={6} md={3} lg={3}>
 					<div className="image-innerContainer">
 						<img
+							style={{ borderRadius: '50%' }}
 							src={Zoo}
 							alt="zoo"
 							height="240px"
 							width="240px"
-							id="image-style"
 						/>
 						<h3>JOSEPH ZOTOO</h3>
 						<p>Internship Coordinator</p>
@@ -149,7 +155,13 @@ const Team = () => {
 				</Grid>
 				<Grid item xs={12} sm={6} md={3} lg={3}>
 					<div className="image-innerContainer">
-						<img src={Okpo} alt="okpo" height="240px" width="240px" />
+						<img
+							style={{ borderRadius: '50%' }}
+							src={Okpo}
+							alt="okpo"
+							height="240px"
+							width="240px"
+						/>
 						<h3>PHILIP MENSAH OKPOTI</h3>
 						<p>Programs Officer</p>
 					</div>
@@ -157,11 +169,12 @@ const Team = () => {
 				<Grid item xs={12} sm={6} md={3} lg={3}>
 					<div className="image-innerContainer">
 						<img
+							style={{ borderRadius: '50%' }}
 							src={isaacPic}
 							height="240px"
 							width="240px"
-							id="image-style"
 							alt="isaac"
+							style={{ borderRadius: '50%' }}
 						/>
 						<h3>ISAAC FORSON</h3>
 						<p>Full Stack Developer</p>
@@ -170,10 +183,10 @@ const Team = () => {
 				<Grid item xs={12} sm={6} md={3} lg={3}>
 					<div className="image-innerContainer">
 						<img
+							style={{ borderRadius: '50%' }}
 							src={RamPic}
 							height="240px"
 							width="240px"
-							id="image-style"
 							alt="ram"
 						/>
 						<h3>RAMATU ABUBAKAR</h3>

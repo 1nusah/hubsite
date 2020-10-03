@@ -86,7 +86,7 @@ const AboutComponent = () => {
 						animateOnce={true}
 						delay={500}
 					>
-						<h1 style={{ textAlign: 'center' }}> Why Africa Skills Hub</h1>
+						<h1> Why Africa Skills Hub</h1>
 						<h3>
 							The African Continent is projected to have the largest workforce
 							by 2030 yet youth employment presents a huge crisis. Across the
@@ -115,11 +115,17 @@ const AboutComponent = () => {
 							delay={500}
 						>
 							<a name="approach">
-								<h1 style={{ paddingTop: '3%', paddingBottom: '5%' }}>
+								<h1
+									style={{
+										paddingTop: '3%',
+										paddingBottom: '5%',
+										textAlign: 'center',
+									}}
+								>
 									OUR APPROACH
 								</h1>
 								<div id="approach-border">
-									<h3 id="approach-style-text">
+									<h3>
 										Our Career Pathway Module(CPM) is built around the 'Work
 										Integrated Learning Style' which is described as more of
 										work and team principle. As a youth employment accelerator

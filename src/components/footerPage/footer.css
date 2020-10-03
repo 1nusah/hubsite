@@ -17,7 +17,7 @@ a:active {
 @media only screen and (max-width: 600px) {
 	#footer-container-style {
 		display: flex;
-		flex-direction: column-reverse;
+		/* flex-direction: column-reverse; */
 	}
 	#footer-item-style {
 		border-bottom: '5px solid #aaa';

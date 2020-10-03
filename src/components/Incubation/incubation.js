@@ -10,21 +10,11 @@ const Incubation = () => {
 		<Grid
 			container
 			style={{
-				backgroundColor: '#00042a',
-				paddingBottom: '2%',
 				paddingLeft: '5%',
 				paddingRight: '5%',
 			}}
 		>
-			<Grid
-				item
-				xs={12}
-				sm={6}
-				md={6}
-				lg={6}
-				style={{ textAlign: 'center' }}
-				id="employOuterContainer"
-			>
+			<Grid item xs={12} sm={12} md={6} lg={6}>
 				<ScrollAnimation
 					animateIn="bounceInRight"
 					animateOut="bounceOutLeft"
@@ -43,11 +33,10 @@ const Incubation = () => {
 			<Grid
 				item
 				xs={12}
-				sm={6}
+				sm={12}
 				md={6}
 				lg={6}
-				style={{ color: '#fff', paddingLeft: '2%' }}
-				id="incubation-style"
+				style={{ color: '#fff', backgroundColor: '#00042a' }}
 			>
 				<ScrollAnimation
 					animateIn="bounceInLeft"
@@ -70,13 +59,15 @@ const Incubation = () => {
 						a view to achieving sustainable growth, employment creation and
 						poverty alleviation.
 					</h3>
-					<Button
-						variant="contained"
-						color="secondary"
-						style={{ borderRadius: 30 }}
-					>
-						Join Our Community
-					</Button>
+					<div style={{ textAlign: 'center', paddingBottom: '5%' }}>
+						<Button
+							variant="contained"
+							color="secondary"
+							style={{ borderRadius: 30 }}
+						>
+							Join Our Community
+						</Button>
+					</div>
 				</ScrollAnimation>
 			</Grid>
 		</Grid>

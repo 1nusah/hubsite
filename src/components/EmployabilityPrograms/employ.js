@@ -6,18 +6,13 @@ import ScrollAnimation from 'react-animate-on-scroll';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import EmployPic from '../../images/9.jpg';
 import { Link } from 'react-router-dom';
-import './employ.css';
 const Employ = () => {
 	return (
 		<Grid
 			container
-			direction="row"
-			justify="center"
-			alignItems="center"
-			id="align-text-center"
-			style={{ marginBottom: '10%' }}
+			style={{ marginBottom: '10%', paddingLeft: '3%', paddingRight: '3%' }}
 		>
-			<Grid item xs={12} md={6} sm={12} lg={6} stlye={{ textAlign: 'center' }}>
+			<Grid item xs={12} sm={12} md={6} lg={6}>
 				<ScrollAnimation
 					animateIn="fadeInRight"
 					animateOut="fadeOutLeft"
@@ -27,7 +22,7 @@ const Employ = () => {
 					<img src={EmployPic} width="100%" height="auto" alt="trainee " />
 				</ScrollAnimation>
 			</Grid>
-			<Grid item xs={12} md={6} sm={12} lg={6} style={{ paddingLeft: '5%' }}>
+			<Grid item xs={12} sm={12} md={6} lg={6} style={{ paddingLeft: '5%' }}>
 				<ScrollAnimation
 					animateIn="fadeInLeft"
 					animateOut="fadeOutRight"
@@ -55,16 +50,13 @@ const Employ = () => {
 						>
 							Youth Employment Accelerator
 						</h3>
-						<h3
-							style={{ opacity: 0.4, fontSize: '1.3em' }}
-							id="align-text-center"
-						>
+						<h3 style={{ opacity: 0.4, fontSize: '1.3em' }}>
 							A structured career Bootcamp to equip entry-level graduates and
 							potential jobseekers with the skills and confidence that employers
 							are looking for.
 						</h3>
 					</div>
-					<Grid item>
+					<div style={{ textAlign: 'center' }}>
 						<Button
 							variant="contained"
 							color="secondary"
@@ -73,7 +65,7 @@ const Employ = () => {
 							<Link to="/about">Apply</Link>
 							<ArrowForwardIcon color="#fff" />
 						</Button>
-					</Grid>
+					</div>
 				</ScrollAnimation>
 			</Grid>
 		</Grid>

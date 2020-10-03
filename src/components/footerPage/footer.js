@@ -18,23 +18,6 @@ const Footer = () => {
 				}}
 				id="footer-container-style"
 			>
-				<Grid item xs={12} sm={12} md={3} lg={3}>
-					<h5
-						style={{ borderBottom: '5px solid #ffc266', textAlign: 'center' }}
-					>
-						Africa Skills Hub
-					</h5>
-					<div style={{ paddingLeft: '2%', paddingRight: '2%' }}>
-						<p>
-							Africa Skills Hub is a youth employment accelerator and business
-							incubator that aims at building Africa’s next generational change
-							agents through practical and accessible learning and coaching
-							tools, delivered online and offline using our Career Pathways
-							Mode. The Career Pathways Mode (CPM) comprises Digital Skills,
-							Leadership Skills and Entrepreneurial Skills.
-						</p>
-					</div>
-				</Grid>
 				<Grid
 					item
 					xs={12}
@@ -107,6 +90,23 @@ const Footer = () => {
 							>
 								Intern Abroad
 							</a>
+						</p>
+					</div>
+				</Grid>
+				<Grid item xs={12} sm={12} md={3} lg={3}>
+					<h5
+						style={{ borderBottom: '5px solid #ffc266', textAlign: 'center' }}
+					>
+						Africa Skills Hub
+					</h5>
+					<div style={{ paddingLeft: '2%', paddingRight: '2%' }}>
+						<p>
+							Africa Skills Hub is a youth employment accelerator and business
+							incubator that aims at building Africa’s next generational change
+							agents through practical and accessible learning and coaching
+							tools, delivered online and offline using our Career Pathways
+							Mode. The Career Pathways Mode (CPM) comprises Digital Skills,
+							Leadership Skills and Entrepreneurial Skills.
 						</p>
 					</div>
 				</Grid>

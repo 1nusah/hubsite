@@ -9,6 +9,7 @@ import Button from '@material-ui/core/Button';
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
 import 'animate.css/animate.min.css';
 import ScrollAnimation from 'react-animate-on-scroll';
+import { Link } from 'react-router-dom';
 const FundPage = () => {
 	return (
 		<Grid container>
@@ -50,14 +51,27 @@ const FundPage = () => {
 						/>
 					</ScrollAnimation>
 				</Grid>
-				<Grid item xs={12} sm={12} md={6} lg={6}>
+				<Grid
+					item
+					xs={12}
+					sm={12}
+					md={6}
+					lg={6}
+					style={{ paddingLeft: '5%', paddingRight: '5%' }}
+				>
 					<ScrollAnimation
 						animateIn="fadeInLeft"
 						animateOut="fadeOutRight"
 						animateOnce={true}
 						delay={500}
 					>
-						<h1 style={{ fontWeight: 'bolder' }}>
+						<h1
+							style={{
+								fontWeight: 'bold',
+								fontSize: '1.7em',
+								lineHeight: '1.2em',
+							}}
+						>
 							Africa Skills Hub SME Support Fund
 						</h1>
 						<h3 style={{ fontWeight: 'lighter' }}>
@@ -83,8 +97,14 @@ const FundPage = () => {
 						animateOnce={true}
 						delay={500}
 					>
-						<div style={{ textAlign: 'center' }}>
-							<h1>Why Choose Africa Skill Hub SME Support Fund?</h1>
+						<div
+							style={{
+								textAlign: 'center',
+							}}
+						>
+							<h1 style={{ fontSize: '1.7em', lineHeight: '1.2em' }}>
+								Why Choose Africa Skill Hub SME Support Fund?
+							</h1>
 						</div>
 						<div>
 							<h3>
@@ -155,7 +175,7 @@ const FundPage = () => {
 							width="100%"
 							height="auto"
 							text-align="center"
-							lat="people holding hands"
+							alt="people holding hands"
 						/>
 					</ScrollAnimation>
 				</Grid>
@@ -165,7 +185,7 @@ const FundPage = () => {
 					sm={12}
 					md={6}
 					lg={6}
-					style={{ color: '#333', textAlign: 'center', paddingLeft: '3%' }}
+					style={{ color: '#333', paddingLeft: '3%' }}
 				>
 					<ScrollAnimation
 						animateIn="fadeInLeft"
@@ -173,10 +193,16 @@ const FundPage = () => {
 						animateOnce={true}
 						delay={500}
 					>
-						<div
-							style={{ textAlign: 'center', borderBottom: '5px solid #ffc266' }}
-						>
-							<h1>Who We Finance?</h1>
+						<div style={{ borderBottom: '5px solid #ffc266' }}>
+							<h1
+								style={{
+									textAlign: 'center',
+									fontSize: '1.7em',
+									lineHeight: '1.2em',
+								}}
+							>
+								Who We Finance?
+							</h1>
 						</div>
 						<div>
 							<h3>
@@ -235,7 +261,9 @@ const FundPage = () => {
 						<div
 							style={{ textAlign: 'center', borderBottom: '5px solid #ffc266' }}
 						>
-							<h1>Eligibility Criteria</h1>
+							<h1 style={{ fontSize: '1.7em', lineHeight: '1.2em' }}>
+								Eligibility Criteria
+							</h1>
 						</div>
 						<div>
 							<h3>
@@ -247,14 +275,16 @@ const FundPage = () => {
 							</h3>
 						</div>
 						<div style={{ textAlign: 'center' }}>
-							<Button
-								color="secondary"
-								variant="contained"
-								style={{ borderRadius: 30 }}
-							>
-								If Interested Apply Here
-								<ArrowForwardIcon style={{ color: '#fff' }} />
-							</Button>
+							<Link to="/about">
+								<Button
+									color="secondary"
+									variant="contained"
+									style={{ borderRadius: 30 }}
+								>
+									If Interested Apply Here
+									<ArrowForwardIcon style={{ color: '#fff' }} />
+								</Button>
+							</Link>
 						</div>
 					</ScrollAnimation>
 				</Grid>

@@ -11,12 +11,19 @@ const Mission = () => {
 		<Grid
 			style={{
 				backgroundColor: '#f1f1f1',
-				padding: '10%',
+				paddingTop: '2%',
 			}}
 			container
 			id="container-grid-style"
 		>
-			<Grid item xs={12} sm={12} md={6} lg={6} style={{ color: '#333' }}>
+			<Grid
+				item
+				xs={12}
+				sm={12}
+				md={6}
+				lg={6}
+				style={{ color: '#333', paddingLeft: '5%', paddingRight: '5%' }}
+			>
 				<ScrollAnimation
 					animateIn="fadeInLeft"
 					animateOut="fadeOutRight"
@@ -30,18 +37,26 @@ const Mission = () => {
 						We are intentional about upskilling African talent and breaking
 						traditional barriers to work for millions of African youth.
 					</h3>
-
-					<Button
-						variant="contained"
-						color="secondary"
-						style={{ borderRadius: 30 }}
-					>
-						Learn More
-						<ArrowForwardIcon style={{ color: '#fff' }} />
-					</Button>
+					<div style={{ textAlign: 'center' }}>
+						<Button
+							variant="contained"
+							color="secondary"
+							style={{ borderRadius: 30 }}
+						>
+							Learn More
+							<ArrowForwardIcon style={{ color: '#fff' }} />
+						</Button>
+					</div>
 				</ScrollAnimation>
 			</Grid>
-			<Grid item xs={12} sm={12} md={6} lg={6}>
+			<Grid
+				item
+				xs={12}
+				sm={12}
+				md={6}
+				lg={6}
+				style={{ paddingLeft: '5%', paddingRight: '5%' }}
+			>
 				<ScrollAnimation
 					animateIn="fadeInRight"
 					animateOut="fadeOutLeft"

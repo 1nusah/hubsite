@@ -17,21 +17,21 @@ const Stats = () => {
 			<Grid item xs={12} sm={6} md={3} lg={3} style={{ textAlign: 'center' }}>
 				<AssessmentIcon style={{ fontSize: 100, color: '#ffc266' }} />
 				<h1 style={{ textAlign: 'center' }}>12,500</h1>
-				<h3 style={{ textAlign: 'left' }}> People impacted so far</h3>
+				<h3 style={{ textAlign: 'center' }}> People impacted so far</h3>
 			</Grid>
 			<Grid item xs={12} sm={6} md={3} lg={3} style={{ textAlign: 'center' }}>
 				<GetAppIcon
 					style={{ fontSize: 100, color: '#ffc266', fontWeight: 'lighter' }}
 				/>
 				<h1>320</h1>
-				<h3 style={{ textAlign: 'left' }}>
+				<h3 style={{ textAlign: 'center' }}>
 					Young Business Startups & MSMEs Trained
 				</h3>
 			</Grid>
 			<Grid item xs={12} sm={6} md={3} lg={3} style={{ textAlign: 'center' }}>
 				<AssessmentIcon style={{ fontSize: 100, color: '#ffc266' }} />
 				<h1>51 %</h1>
-				<h3 style={{ textAlign: 'left' }}>
+				<h3 style={{ textAlign: 'center' }}>
 					of graduates from Africa Skills Hub are females between the ages of
 					15-35
 				</h3>
@@ -41,7 +41,7 @@ const Stats = () => {
 				<h1 fontWeight="bolder" style={{ fontWeight: 'bold' }}>
 					74 %
 				</h1>
-				<h3 style={{ textAlign: 'left' }}>
+				<h3 style={{ textAlign: 'center' }}>
 					of graduates employed within 90 days of program completion
 				</h3>
 			</Grid>

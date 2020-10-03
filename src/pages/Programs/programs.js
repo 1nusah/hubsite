@@ -8,17 +8,19 @@ import LesTalk from '../../images/8.jpg';
 import Footer from '../../components/footerPage/footer';
 import './programs.css';
 import 'animate.css/animate.min.css';
+import { Link } from 'react-router-dom';
 import ScrollAnimation from 'react-animate-on-scroll';
 const Programs = () => {
 	return (
-		<Grid
-			container
-			direction="column"
-			justify="center"
-			alignItems="center"
-			style={{ marginTop: '2%' }}
-		>
-			<Grid item xs={12} md={12} lg={12} sm={12}>
+		<Grid container>
+			<Grid
+				item
+				xs={12}
+				md={12}
+				lg={12}
+				sm={12}
+				style={{ paddingTop: '5%', paddingBottom: '5%' }}
+			>
 				<ScrollAnimation
 					animateIn="fadeInLeft"
 					animateOut="fadeOutRight"
@@ -30,7 +32,7 @@ const Programs = () => {
 							textAlign: 'center',
 							backgroundColor: '#00042a',
 							color: '#fff',
-							padding: '5%',
+							// padding: '5%',
 						}}
 					>
 						<h1
@@ -79,14 +81,19 @@ const Programs = () => {
 					}}
 				>
 					<a name="work-readiness">
-						<div id="employText" style={{ height: '100%' }}>
+						<div id="employText">
 							<ScrollAnimation
 								animateIn="fadeInLeft"
 								animateOut="fadeOutRight"
 								animateOnce={true}
 								delay={500}
 							>
-								<h4 style={{ borderBottom: '5px solid #ffc266' }}>
+								<h4
+									style={{
+										borderBottom: '5px solid #ffc266',
+										textAlign: 'center',
+									}}
+								>
 									Work Readiness
 								</h4>
 
@@ -96,14 +103,18 @@ const Programs = () => {
 									entry-level graduates and potential jobseekers with the skills
 									and confidence that employers are looking for.
 								</p>
-								<Button
-									variant="contained"
-									color="secondary"
-									style={{ borderRadius: 30 }}
-								>
-									Apply
-									<ArrowForwardIcon color="#fff" />
-								</Button>
+								<div style={{ textAlign: 'center' }}>
+									<Link to="/about">
+										<Button
+											variant="contained"
+											color="secondary"
+											style={{ borderRadius: 30 }}
+										>
+											Apply
+											<ArrowForwardIcon color="#fff" />
+										</Button>
+									</Link>
+								</div>
 							</ScrollAnimation>
 						</div>
 					</a>
@@ -129,7 +140,14 @@ const Programs = () => {
 					</ScrollAnimation>
 				</Grid>
 
-				<Grid item xs={12} sm={6} md={6} lg={6} style={{ paddingLeft: '5%' }}>
+				<Grid
+					item
+					xs={12}
+					sm={6}
+					md={6}
+					lg={6}
+					// style={{ paddingLeft: '5%' }}
+				>
 					<a name="entrepreneurship">
 						<ScrollAnimation
 							animateIn="fadeInLeft"
@@ -138,7 +156,13 @@ const Programs = () => {
 							delay={500}
 						>
 							<div id="employText">
-								<h4 style={{ borderBottom: '5px solid #ffc266' }}>
+								<h4
+									style={{
+										borderBottom: '5px solid #ffc266',
+										fontSize: '1.7em',
+										lineHeight: '1.2em',
+									}}
+								>
 									Entrepreneurship and Business Incubation Services
 								</h4>
 
@@ -152,14 +176,18 @@ const Programs = () => {
 									and internation networks, mentoring and a full-time, hands on
 									management coaching
 								</p>
-								<Button
-									variant="contained"
-									color="secondary"
-									style={{ borderRadius: 30 }}
-								>
-									Apply
-									<ArrowForwardIcon color="#fff" />
-								</Button>
+								<div style={{ textAlign: 'center' }}>
+									<Link to="/about">
+										<Button
+											variant="contained"
+											color="secondary"
+											style={{ borderRadius: 30 }}
+										>
+											Apply
+											<ArrowForwardIcon color="#fff" />
+										</Button>
+									</Link>
+								</div>
 							</div>
 						</ScrollAnimation>
 					</a>
@@ -208,14 +236,18 @@ const Programs = () => {
 									recruit, employ and arrange training for apprentices on behalf
 									of employers
 								</p>
-								<Button
-									variant="contained"
-									color="secondary"
-									style={{ borderRadius: 30 }}
-								>
-									Apply
-									<ArrowForwardIcon color="#fff" />
-								</Button>
+								<div style={{ textAlign: 'center' }}>
+									<Link to="/about">
+										<Button
+											variant="contained"
+											color="secondary"
+											style={{ borderRadius: 30 }}
+										>
+											Apply
+											<ArrowForwardIcon color="#fff" />
+										</Button>
+									</Link>
+								</div>
 							</div>
 						</a>
 					</ScrollAnimation>

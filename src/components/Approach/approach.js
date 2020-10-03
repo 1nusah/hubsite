@@ -12,19 +12,22 @@ const Approach = () => {
 		>
 			<Grid
 				container
-				justify="center"
-				alignItems="center"
 				style={{
-					backgroundColor: '#e5e6ea',
-					paddingBottom: '10%',
+					// paddingBottom: '10%',
 					marginTop: '5%',
-					marginBottom: '10%',
-					paddingLeft: '5%',
-					paddingRight: '5%',
+					// marginBottom: '10%',
+					paddingLeft: '3%',
+					paddingRight: '3%',
 				}}
-				id="align-text-center"
 			>
-				<Grid item xs={12} lg={12} sm={12} md={12}>
+				<Grid
+					item
+					xs={12}
+					lg={12}
+					sm={12}
+					md={12}
+					style={{ backgroundColor: '#e5e6ea' }}
+				>
 					<h1
 						style={{
 							textAlign: 'center',
@@ -36,7 +39,14 @@ const Approach = () => {
 						Our Approach
 					</h1>
 				</Grid>
-				<Grid item xs={12} lg={12} sm={12} md={12}>
+				<Grid
+					item
+					xs={12}
+					lg={12}
+					sm={12}
+					md={12}
+					style={{ backgroundColor: '#e5e6ea' }}
+				>
 					<div>
 						<p
 							style={{
@@ -51,14 +61,15 @@ const Approach = () => {
 							both online and offline learning and coaching tools to...
 						</p>
 					</div>
-
-					<Button
-						variant="contained"
-						color="secondary"
-						style={{ borderRadius: 30 }}
-					>
-						<a href="/about/#approach">Read More</a>
-					</Button>
+					<div style={{ textAlign: 'center', marginBottom: '5%' }}>
+						<Button
+							variant="contained"
+							color="secondary"
+							style={{ borderRadius: 30 }}
+						>
+							<a href="/about/#approach">Read More</a>
+						</Button>
+					</div>
 				</Grid>
 			</Grid>
 		</ScrollAnimation>
